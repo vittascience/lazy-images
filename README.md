@@ -38,6 +38,6 @@ In future
 -----------
 
 Next steps are :
-..* Install this program as global application
-..* Set "result" folder
-..* Set desire size of width/height
+* Install this program as global application
+* Set "result" folder
+* Set desire size of width/height
