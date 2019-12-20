@@ -1,0 +1,16 @@
+{
+  "name": "lazy-images",
+  "version": "1.0.0",
+  "description": "A nodeJS script to transform images for lazy width.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marchal Maxence",
+  "license": "ISC",
+  "dependencies": {
+    "is-image": "^3.0.0",
+    "sharp": "^0.23.4"
+  }
+}
