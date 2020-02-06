@@ -1,6 +1,7 @@
 # lazy-images
 A NodeJS script that transform images to lazy images.
 
+We use it in Vittascience to do lazy images that can save up some bandwidth for our servers and our clients.
 
 Quick start
 -----------
@@ -34,7 +35,7 @@ npm run
 
 You'll have all your lazy images in "result" folder.
 
-In future
+Coming Next
 -----------
 
 Next steps are :
