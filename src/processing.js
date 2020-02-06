@@ -7,7 +7,7 @@ let imagesTreated = 0;
 async function resizeImage(path, filename)
 {
     let filepath = path + "/" + filename;
-    await sharp(filepath).resize({ height: 40 }).toFile('./result/lazy-'+filename).then(data => {
+    await sharp(filepath).resize({ height: 40 }).toFile('./result/lazy_'+filename).then(data => {
         ++imagesTreated;
         console.log(imagesTreated + " " + filename + " => done");
     });
